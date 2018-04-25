@@ -1,3 +1,12 @@
+/*Page Sections*/
+.page_menu{
+  background-color:rgba(20, 97, 240, 0.1);
+}
+
+.page_body{
+  text-align:center;
+}
+
 /*Content Section*/ 
 .content{
   max-width:85%;
