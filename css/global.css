@@ -1,6 +1,10 @@
 /*Page Sections*/
 .page_menu{
-  background-color:rgba(20, 97, 240, 0.1);
+  background-color: rgba(20, 97, 240, 0.1);
+  text-align: center;
+  max-width: 85%;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 .page_body{
@@ -9,10 +13,12 @@
 
 /*Content Section*/ 
 .content{
-  max-width:85%;
-  border-style:solid;
-  border-width: 1px; 
-  boder-color: lightgray;
+  max-width: 85%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgray;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 /*Main Menu Header*/
@@ -25,10 +31,10 @@
 }
 
 .menu-hover-lines li a {
-  padding: 0.75rem 0;
-  color: rgba(10, 10, 10, 0.5);
-  position: relative;
-  margin-left: 1rem;
+    padding: 0.75rem 0;
+    color: rgba(10, 10, 10, 0.5);
+    position: relative;
+    margin-left: 50px;
 }
 
 .menu-hover-lines li:first-child a {
