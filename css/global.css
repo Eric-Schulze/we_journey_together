@@ -1,4 +1,12 @@
- /*Main Menu Header*/
+/*Content Section*/ 
+.content{
+  max-width:85%;
+  border-style:solid;
+  border-width: 1px; 
+  boder-color: lightgray;
+}
+
+/*Main Menu Header*/
 .menu-hover-lines {
   text-align: center;
   text-transform: uppercase;
