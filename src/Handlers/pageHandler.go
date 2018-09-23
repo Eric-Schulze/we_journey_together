@@ -1,9 +1,7 @@
 package utilities
 
 import (
-    "fmt",
-    "log",
-    "io/ioutil",
+    "io/ioutil"
 )
 
 type Page struct {
@@ -16,7 +14,7 @@ func (p *Page) savePage() error {
     return ioutil.WriteFile(filename, p.Body, 0600)
 }
 
-func loadPage(title string) (*Page. error) {
+func loadPage(title string) (*Page, error) {
     filename := title + ".txt"
     body, err := ioutil.ReadFile(filename)
     if err != nil {
